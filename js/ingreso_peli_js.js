@@ -1,26 +1,12 @@
 // Add the following code if you want the name of the file appear on select
-$(".custom-file-input").on("change", function() {
-  var fileName = $(this).val().split("\\").pop();
-  $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
-});
+$(".custom-file-input").on("change", function() { var fileName = $(this).val().split("\\").pop(); $(this).siblings(".custom-file-label").addClass("selected").html(fileName);});
 
 //Solo texto
-function preventNumberInput(e){
-    var keyCode = (e.keyCode ? e.keyCode : e.which);
-    if (keyCode > 47 && keyCode < 58 || keyCode > 95 && keyCode < 107 ){
-        e.preventDefault();
-    }
-}
+function preventNumberInput(e){var keyCode = (e.keyCode ? e.keyCode : e.which);if (keyCode > 47 && keyCode < 58 || keyCode > 95 && keyCode < 107 ){e.preventDefault();}}
 
 //Solo números
-function onlyNumberKey(evt) {
-          
-        // Only ASCII character in that range allowed
-        var ASCIICode = (evt.which) ? evt.which : evt.keyCode
-        if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))
-            return false;
-        return true;
-    }
+function onlyNumberKey(evt) {// Only ASCII character in that range allowed
+        var ASCIICode = (evt.which) ? evt.which : evt.keyCode; if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))return false; return true;}
 
 document.getElementById("n_direct").addEventListener("input", forceLower);
 
