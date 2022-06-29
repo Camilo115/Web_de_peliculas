@@ -1,1 +1,2 @@
 # Web_de_peliculas
+Este es un pequeño proyecto, basado en tecnologias web como html, css, javascript, bootstrap, entre otros. En donde se muestra, un listado de películas, con su poster, tráiler, y algunos datos relevantes acerca de esta. Se espera que sirva de ejemplo, para realizar proyectos similares, en el futuro, donde se necesite demostrar información, con las mismas condiciones presentes aquí, y sea de utilidad, para otros tipos de proyectos.
