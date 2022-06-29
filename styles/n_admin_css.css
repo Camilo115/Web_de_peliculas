@@ -1,0 +1,47 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+#contenedor_nuevo_admin{
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.card{
+  margin: 0px auto;
+  color: #030303;
+  width: 500px;
+}
+
+.card-title{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.mb-3{
+  margin-top: 10px;
+}
+  
+#nombre,#apellido,#n_usu,#correo,#contra,#c_contra{
+  border-radius: 10px;
+  background: #eeeeee;
+}
+
+.form-text{
+  font-weight: bold;
+}
+
+#span_contra{
+  background-color: #dc3545;
+  border-radius: 10px;
+}
+
+#btn_contra{
+  color: #eeeeee;
+}
+
+#btn{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;   
+}

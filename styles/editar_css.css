@@ -1,0 +1,27 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #eeeeee;
+}
+
+#contenedor_editar_peli{
+  margin-top: 60px;
+  margin-bottom: 30px;    
+}
+
+.card{
+  color: #000000;
+  margin: 0px auto;
+  width: 500px;
+}
+
+.card-title{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#btn{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;   
+}	

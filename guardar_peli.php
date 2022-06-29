@@ -1,0 +1,4 @@
+<?php include ("db.php");
+
+if (isset($_POST["guardar"])) { $n_usu = $_POST["n_usu"]; $target = "imagenes/".basename($_FILES['image']['name']);$image = $_FILES['image']['name']; $n_peli = $_POST["n_peli"]; $n_direct = $_POST["n_direct"]; $anio = $_POST["anio"]; $ns_prota = $_POST["ns_prota"]; $descrip = $_POST["descrip"];$video = $_POST["video"]; if (move_uploaded_file($_FILES['image']["tmp_name"], $target)) {$sql = "INSERT INTO pelicula(nombre,director,anio,ns_prota,descrip,video,img) VALUES ('$n_peli','$n_direct','$anio','$ns_prota','$descrip','$video','$image')";$r = mysqli_query($conn,$sql);if (!$r) {header("Location:ingreso_peli.php?usu=$n_usu&error=No se pudo guardar la información");}else{header("Location:ingreso_peli.php?usu=$n_usu");}}else{echo "No se ha subido la imagen";}}
+?>

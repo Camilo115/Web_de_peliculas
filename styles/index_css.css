@@ -1,0 +1,85 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #eeeeee;
+}
+
+h1{		
+	text-align: center;		
+}
+
+h3{		
+	text-align: center;
+}
+
+#titulo_bienvenida{
+	margin-top: 50px;
+}
+
+#contenido_inicio{
+	padding: 20px;
+}
+
+#contenedor_inicio{
+	display: flex;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	border: 1px solid #e1e1e1;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+#img_inicio{
+	text-align: center;
+	margin-top: 60px;
+}
+
+#msj_inicio{
+	font-size: 20px;
+	text-align: justify;
+	width: 100%; 
+	height: 100%;
+	margin-right: 30px;
+}
+
+#img_bienvenida{
+	width: 100%; 
+	height: 100%;
+	max-width: 300px;
+	margin-left: 10px;
+	border-radius: 30px;
+}	
+
+#titulo_peli_ingresada{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+#listado_peliculas{
+	margin-top: 30px;
+}
+
+#msj_sin_pelicula{
+	text-align: center;
+}
+
+#card{
+	color: #000000;
+}
+
+.card-title{		
+	font-size: 25px;
+}
+
+.card-text{
+	font-size: 20px;
+	text-align: justify;
+}	
+
+#img_peli{
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.list-group{
+	margin-left: 10px;
+}	
