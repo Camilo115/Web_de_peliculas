@@ -93,7 +93,7 @@ if (isset($_GET['id_pelicula'])) {
 			          <!--Botones de acción-->
 			          <div id="btn">
 				            <button class="btn btn-danger" type="submit" name="guardar">Guardar</button>
-				            <button class="btn btn-danger" type="button" name="" onclick="regresar();">Cancelar</button> 
+				            <button class="btn btn-danger" type="button" name="cancelar" onclick="regresar();">Cancelar</button> 
 			          </div>
 				 </form>
 			</div>
